@@ -1,0 +1,27 @@
+/* Custom Bootstrap CARD */
+
+.card .card-img-overlay {
+    display: none;
+}
+
+.card:hover .card-image, .card:focus-within .card-image {
+    filter: brightness(0.5) blur(3px) opacity(0.3);
+}
+
+.card:hover .card-img-overlay, .card:focus-within .card-img-overlay {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card .card-img-overlay .card-link {
+    color: white;
+}
+
+/* Custom */
+
+.wrapper a:hover, .wrapper a:focus {
+    border-radius: 50%;
+    transition: border-radius 0.3s ease;
+}

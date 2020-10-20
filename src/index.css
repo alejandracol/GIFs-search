@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Custom Bootstrap TEXT-* BTN-* */
+
+.text-primary {
+  color: #b8235a !important; }
+  a.text-primary:hover, a.text-primary:focus {
+    color: #da2a6b !important; }
+
+.btn-primary {
+  background-color: #b8235a !important;
+  border-color: #b8235a !important; }
+  .btn-primary:hover {
+    background-color: #da2a6b !important;
+    border-color: #da2a6b !important; }
+  .btn-primary:focus, .btn-primary.focus {
+    background-color: #da2a6b !important;
+    border-color: #da2a6b !important;
+    box-shadow: 0 0 0 0.2rem rgba(218, 54, 114, 0.5); }
+  .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus {
+    box-shadow: 0 0 0 0.2rem rgba(218, 42, 106, 0.5); }
+
+.text-info {
+  color: #2390b8 !important; }
+  a.text-info:hover, a.text-info:focus {
+    color: #1b7191 !important; }
+
+.btn-info {
+  background-color: #2390b8 !important;
+  border-color: #2390b8 !important; }
+  .btn-info:hover {
+    background-color: #1b7191 !important;
+    border-color: #1b7191 !important; }
+  .btn-info:focus, .btn-info.focus {
+    background-color: #1b7191 !important;
+    border-color: #1b7191 !important;
+    box-shadow: 0 0 0 0.2rem rgba(44, 146, 184, 0.5); }
+  .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(44, 146, 184, 0.5); }
+
+.badge-info {
+  background-color: #1b7191; }

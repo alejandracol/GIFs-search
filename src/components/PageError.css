@@ -1,0 +1,9 @@
+.page-error {
+    height: calc(100vh - 100px);
+}
+
+@media (max-width: 768px) {
+    .page-error {
+        height: calc(100vh - 190px);
+    }
+} 
